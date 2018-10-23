@@ -54,14 +54,38 @@
 		6B94AC41217F60300052A60C /* TheZenAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				6B94AC42217F60300052A60C /* AppDelegate.swift */,
-				6B94AC44217F60300052A60C /* ViewController.swift */,
-				6B94AC46217F60300052A60C /* Main.storyboard */,
-				6B94AC49217F60320052A60C /* Assets.xcassets */,
-				6B94AC4B217F60320052A60C /* LaunchScreen.storyboard */,
-				6B94AC4E217F60320052A60C /* Info.plist */,
+				6B94AC56217F61580052A60C /* Resources */,
+				6B94AC55217F60E40052A60C /* Controller */,
+				6B94AC54217F60A70052A60C /* View */,
 			);
 			path = TheZenAlgorithm;
+			sourceTree = "<group>";
+		};
+		6B94AC54217F60A70052A60C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B94AC46217F60300052A60C /* Main.storyboard */,
+				6B94AC4B217F60320052A60C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B94AC55217F60E40052A60C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B94AC44217F60300052A60C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B94AC56217F61580052A60C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B94AC42217F60300052A60C /* AppDelegate.swift */,
+				6B94AC49217F60320052A60C /* Assets.xcassets */,
+				6B94AC4E217F60320052A60C /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
